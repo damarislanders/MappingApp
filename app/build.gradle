@@ -4,8 +4,8 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.damaris.mappingapp"
-        minSdkVersion 19
-        targetSdkVersion 26
+        minSdkVersion 15
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -25,4 +25,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:0.5'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'org.osmdroid:osmdroid-android:5.6.5@aar'
 }
